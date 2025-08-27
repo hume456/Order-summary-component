@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: #e9e2f3;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  width: 450px;
+  height: 620px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  overflow: hidden;
+}
+
+.card-header {
+  background: url("images/illustration-hero.svg");
+  background-size: fill;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+}
+
+
+.card-content {
+  padding: 20px;
+  height: 300px;
+  margin: 25px;
+}
+
+.card-content h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-content p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.plan-box {
+  background-color: #eaf2fa;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0px 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+}
+
+.plan-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.plan-info img {
+  width: 40px; 
+  height: 40px; 
+  object-fit: contain; 
+}
+
+
+.plan-box span {
+  font-weight: bold;
+}
+
+
+.change {
+  color: #4f46e5;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.price {
+  color: #9291a0;
+  font-size: 16px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  background-color: #4f46e5;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #4338ca;
+}
+
+.cancel {
+  color: #555;
+  font-weight: bold;
+  cursor: pointer;
+}
